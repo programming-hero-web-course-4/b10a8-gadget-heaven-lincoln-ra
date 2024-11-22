@@ -2,7 +2,21 @@
 const Home = () => {
     return (
         <div>
-            <h1 className="text-4xl">this is home</h1>
+            <div className="category">
+                <ul>
+                    <li>All Products</li>
+                    <li>Laptops</li>
+                    <li>Phones</li>
+                    <li>Accessories</li>
+                    <li>Smart Watches</li>
+                    <li>MacBook </li>
+                    <li>Iphone</li>
+                </ul>
+            </div>
+
+            <div className="cards">
+
+            </div>
         </div>
     );
 };
