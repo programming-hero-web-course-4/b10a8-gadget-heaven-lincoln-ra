@@ -1,21 +1,22 @@
-
+import { NavLink } from "react-router-dom";
+import "./home.css"
 const Home = () => {
     return (
-        <div>
-            <div className="category">
+        <div className="flex gap-5">
+            <div className="category w-2/12 bg-white rounded-xl p-5 ">
                 <ul>
-                    <li>All Products</li>
-                    <li>Laptops</li>
-                    <li>Phones</li>
-                    <li>Accessories</li>
-                    <li>Smart Watches</li>
-                    <li>MacBook </li>
-                    <li>Iphone</li>
+                    <li><NavLink>All Products</NavLink></li>
+                    <li><NavLink>Laptops</NavLink></li>
+                    <li><NavLink>Phones</NavLink></li>
+                    <li><NavLink>Accessories</NavLink></li>
+                    <li><NavLink>Smart Watches</NavLink></li>
+                    <li><NavLink>MacBook</NavLink> </li>
+                    <li><NavLink>Iphone</NavLink></li>
                 </ul>
             </div>
 
-            <div className="cards">
-
+            <div className="cards w-10/12 bg-white rounded-lg p-5">
+cards will br here
             </div>
         </div>
     );
