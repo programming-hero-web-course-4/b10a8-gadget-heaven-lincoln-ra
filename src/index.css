@@ -4,5 +4,10 @@
 
 .active {
     font-weight: bold;
+   
     /* background-color: green; */
+}
+
+.category .active{
+    color: rgb(155, 2, 155);
 }

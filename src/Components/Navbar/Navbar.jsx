@@ -17,8 +17,10 @@ const Navbar = () => {
       <li><NavLink to="/blog">Blog</NavLink></li>
     </ul>
     <div className="flex gap-5">
-      <IoCartOutline />
-      <FaRegHeart />
+      <NavLink to="/dashboard"><IoCartOutline /></NavLink>
+      <NavLink to="/dashboard"> <FaRegHeart /></NavLink>
+      
+     
     </div>
   </div>
 

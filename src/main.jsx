@@ -11,6 +11,9 @@ import Statistic from './Components/Statistic/Statistic';
 import Dashboard from './Components/Dashboard/Dashboard';
 import Blogs from './Components/Blogs/Blogs';
 import ErrorPage from './Components/ErrorPage/ErrorPage';
+import Context from './Context/Context';
+import Cards from './Components/Cards/Cards';
+
 // import App from './App.jsx'
 const router = createBrowserRouter([
   {
@@ -19,8 +22,14 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
-        index: true,
+        path:"/",
         element: <Home></Home>,
+        children:[
+          {
+            path:"/cards/:category",
+            element: <Cards></Cards>
+          }
+        ]
       },
       
       {
@@ -46,6 +55,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-     <RouterProvider router={router} />
+     <Context>
+      <RouterProvider router={router} />
+     </Context>
   </StrictMode>,
 )
