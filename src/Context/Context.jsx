@@ -5,8 +5,9 @@ export const dataContext = createContext([]);
 const Context = ({children}) => {
     const [data , setData] = useState([])
     const [category, setCategory] =useState([]);
+    // const [cartData, setCartData] = useState([]);
 
-    console.log(category)
+    // console.log(category)
 
 
     useEffect ( () => {
@@ -22,10 +23,16 @@ const Context = ({children}) => {
     },[] )
 
 
+    // const[addToCart] =(product) => {
+    //     setCartData((prevCartData)=> [...prevCartData, product]);
+    // };
+
 
     const value = {
         data,
         category,
+        // cartData,
+        // addToCart,
     };
     
     return (

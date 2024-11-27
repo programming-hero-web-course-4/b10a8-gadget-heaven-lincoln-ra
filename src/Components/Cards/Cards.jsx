@@ -10,18 +10,22 @@ const Cards = () => {
 
     const value = useContext(dataContext)
     const {data} = value;
-    console.log(data)
+    // console.log(data)
 
-    const filteredProducts = data.products?.filter(
-        (product) => product.category === obj.category
-  );
+    const filteredProducts = obj.category === "allProducts" || !obj.category
+        ? data.products
+        : data.products?.filter((product) => product.category === obj.category);
+
     return (
-        <div className=" cards w-10/12  rounded-lg  grid grid-cols-3">
-           { filteredProducts?.length > 0 ? (
-            filteredProducts.map((product) => (<Card key={product.product_id} product={product} />) )
-           ) :<p>no products for this route</p> }
-
-</div>
+        <div className="cards w-10/12 rounded-lg grid grid-cols-3 gap-4">
+            {filteredProducts?.length > 0 ? (
+                filteredProducts.map((product) => (
+                    <Card key={product.product_id} product={product} />
+                ))
+            ) : (
+                <p>No products found for this category.</p>
+            )}
+        </div>
     );
 };
 
