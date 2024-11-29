@@ -1,9 +1,9 @@
 # Project Gadget Haven
 
 ## links
-**Live site Link:** [Surge link](https://a8-gadget-have.surge.sh/dashboard/wishlist)
+**Live site Link:** [Surge link](https://a8-gadget-have.surge.sh/)
 
-**Requirement document Link:** [Document From Programming Hero github] (https://github.com/ProgrammingHero1/B10-A8-gadget-heaven/blob/main/Batch-10_Assignment-08.pdf)
+**Requirement document Link:** [Document From Programming Hero github](https://github.com/ProgrammingHero1/B10-A8-gadget-heaven/blob/main/Batch-10_Assignment-08.pdf)
 
 
 ## Some of the Fundamental Components
@@ -11,7 +11,8 @@
 - Dashboard
 - Statistics
 - News
-(there are more components inside these Components)
+
+(*there are more components inside these Components*)
 
 ## Used Context API to Handling and Managing data.
 

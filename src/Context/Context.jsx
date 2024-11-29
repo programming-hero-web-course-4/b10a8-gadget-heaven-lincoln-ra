@@ -71,6 +71,7 @@ const Context = ({children}) => {
         data,
         category,
         cartData,
+        setCartData,
         addToCart,
         wishlistData,
         addToWishlist,
