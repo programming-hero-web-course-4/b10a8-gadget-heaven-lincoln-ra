@@ -1,13 +1,32 @@
 import { IoCartOutline } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
 import { NavLink, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 const Navbar = () => {
     const location = useLocation();
 
     const isLocation = location.pathname === "/";
 
+    useEffect (() => {
+      const title ={
+        "/": "Home | Gadget Haven",
+        "/dashboard": "Dashboard | Gadget Haven",
+        "/state": "State | Gadget Haven",
+        "/news":"News",
+        "/dashboard/cart": "Cart | Gadget Heaven",
+        "/dashboard/wishlist": "Wishlist | Gadget Heaven",
+        "/cards/allProducts": "All Products | Gadget Haven",
+        "/cards/Laptop": "Laptops | Gadget Haven",
+        "/cards/Phone": "Phones | Gadget Haven",
+        "/cards/MacBook": "MacBook | Gadget Haven",
+        "/cards/iPhone": "iPhone | Gadget Haven",
+        "/cards/watch": "Watches | Gadget Haven",
+      };
+      document.title = title[location.pathname] || "Gadget Haven";
+    }, [location]);
+
     return (
-        <div className={`mt-5 p-5 rounded-t-xl ${isLocation ? "bg-purple-600 text-white" : "bg-none text-black"}`}>
+        <div className={`mt-5 p-5 mx-10 rounded-t-xl ${isLocation ? "bg-purple-600 text-white" : "bg-none text-black"}`}>
   <div className="flex justify-between items-center">
     <h3 className="font-bold text-xl">Gadget Heaven</h3>
     <ul className="flex gap-5">

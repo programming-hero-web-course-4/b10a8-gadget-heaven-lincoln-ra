@@ -15,6 +15,7 @@ import Cards from './Components/Cards/Cards';
 import Details from './Components/Details/Details';
 import Cart from './Components/Cart/Cart';
 import Wishlist from './Components/Wishlist/Wishlist';
+import Statistics from './Components/Statistics/Statistics';
 
 // import App from './App.jsx'
 const router = createBrowserRouter([
@@ -53,6 +54,10 @@ const router = createBrowserRouter([
 
           }
         ]
+      },
+      {
+        path:"state",
+        element: <Statistics></Statistics>
       },
       {
         path: "news",

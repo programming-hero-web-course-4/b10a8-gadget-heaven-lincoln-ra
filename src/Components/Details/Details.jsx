@@ -4,6 +4,7 @@ import { FaRegHeart } from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa";
 import { useContext } from "react";
 import { dataContext } from "../../Context/Context";
+import RatingStars from "../RatingStars/RatingStars";
 
 const Details = () => {
 
@@ -39,7 +40,7 @@ const Details = () => {
                         <li>{specification.storage}</li>
                         
                     </ol>
-                    <h4 className="flex items-center gap-1">Rating: {rating} <FaRegStar /> </h4>
+                    <h4 className="flex items-center gap-2"> <RatingStars rating = {rating}></RatingStars> {rating}  </h4>
                     <div className="flex items-center gap-5 ">
                     <button className="flex items-center gap-1 bg-purple-600 rounded-full px-3 py-1 text-white font-semibold" onClick={() =>addToCart(product)}>Add to Cart <IoCartOutline /></button>
                     <button onClick={() => addToWishlist(product)} className="border-2 border-[#adadad] p-1 rounded-full"><FaRegHeart /></button>

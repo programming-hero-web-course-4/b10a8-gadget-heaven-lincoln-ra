@@ -13,6 +13,8 @@ const Cart = () => {
 
     const [sortedCartData, setSortedCartData] = useState(cartData);
 
+    const [finalTotalPrice, setFinalTotalPrice] = useState(0);
+
     const navigate = useNavigate()
 
     const totalPrice = sortedCartData.reduce((total, product) => total+product.price, 0);
@@ -24,7 +26,7 @@ const Cart = () => {
 
     const handlePurchase = () => {
         document.getElementById('my_modal_1').showModal();
-
+        setFinalTotalPrice(totalPrice);
         setCartData([]);
         setSortedCartData([]);
 
@@ -58,6 +60,7 @@ const Cart = () => {
                     <img src="/src/assets/Group.png" alt="" />
                     <h3 className="font-bold text-lg">Success</h3>
                     <p className="py-4">Product Purchased Successfully</p>
+                    <p className="font-bold">Total Price: {finalTotalPrice.toFixed(2)}</p>
                      <div className="modal-action">
                          <form method="dialog">
        
@@ -68,12 +71,15 @@ const Cart = () => {
                 </dialog>
            {
             sortedCartData.map((product) =>(
-            <div  className="flex items-center rounded-2xl p-3 gap-5 border-2 mb-5" key={product.product_id}> <img className="h-40" src={product.product_image} alt="" />
-                <div className="mr-96">
+            <div  className="flex items-center justify-between rounded-2xl p-3 gap-5 border-2 mb-5 pr-10" key={product.product_id}> 
+            <div className="flex items-center gap-10">
+            <img className="h-40" src={product.product_image} alt="" />
+                <div className="">
                     <h3 className="font-bold text-xl">{product.product_title}</h3>
                     <p className="my-2">{product.description}</p>
                     <p className="font-bold">Price: {product.price}</p>
                 </div >
+            </div>
                 <RxCrossCircled style={{color:'red', fontSize:'24px'}} />
             </div>) )
            }
