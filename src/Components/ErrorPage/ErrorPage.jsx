@@ -11,7 +11,7 @@ const ErrorPage = () => {
     }
 
     return (
-        <div className=" flex flex-col gap-5 p-40 bg-black text-white text-center h-screen">
+        <div className=" flex flex-col gap-5 p-40 text-center h-screen">
             <h1 className="text-7xl font-bold">Oops!</h1>
             <h1 className="text-5xl font-bold"> Something went wrong</h1>
             <p className="font-semibold text-lg">(No route found, please go back)</p>

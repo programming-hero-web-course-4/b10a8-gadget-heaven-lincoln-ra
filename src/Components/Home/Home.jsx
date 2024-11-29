@@ -13,11 +13,14 @@ const Home = () => {
     return (
        <div>
         <Banner></Banner>
+         <div >
+            <h1 className="font-bold text-4xl text-center my-10">Explore Cutting-Edge Gadgets</h1>
          <div className="category flex gap-5">
             <Categories ></Categories>
             <Outlet></Outlet>
             {/* <Cards></Cards> */}
         </div>
+         </div>
        </div>
     );
 };

@@ -1,14 +1,17 @@
 
 import { createContext, useEffect, useState } from "react";
 export const dataContext = createContext([]);
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Context = ({children}) => {
     const [data , setData] = useState([])
     const [category, setCategory] =useState([]);
     const [cartData, setCartData] = useState([]);
     const [wishlistData, setWishlistData] = useState([]);
+    const [newsData , setNewsData] = useState([])
 
-    console.log(wishlistData)
+    
 
 
     useEffect ( () => {
@@ -23,8 +26,20 @@ const Context = ({children}) => {
         .then (data => setCategory(data))
     },[] );
 
+    useEffect(() => {
+        fetch("news.json")
+        .then (res => res.json() )
+        .then (data => setNewsData(data))
+    },[]);
+
+
+    // console.log(newsData)
+
     const addToCart = (product) => {
         setCartData((prevCartData) => [...prevCartData, product]);
+        toast.success("product added to cart", {position: "top-center",
+            autoClose: 1000,})
+        
     };
 
     // const addToWishlist = (product) => {
@@ -37,10 +52,14 @@ const Context = ({children}) => {
         setWishlistData((prevWishlistData) =>{
             if(prevWishlistData.find((item) => item.product_id === product.product_id))
             {
-                alert("product is already in the wishlist");
+                toast.error("product is already in the wishlist", {position: "top-center",
+                    autoClose: 1000,});
                 return prevWishlistData;
             };
+            toast.success("product added to wishlist", {position: "top-center",
+                autoClose: 1000,})
             return[...prevWishlistData, product]
+            
         })
     }
 
@@ -55,13 +74,14 @@ const Context = ({children}) => {
         addToCart,
         wishlistData,
         addToWishlist,
+        newsData,
     };
     
     return (
         <dataContext.Provider value={value}>
 
             {children}
-            
+            <ToastContainer/>
         </dataContext.Provider>
     );
 };

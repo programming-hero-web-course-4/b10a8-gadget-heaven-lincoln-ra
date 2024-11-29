@@ -1,0 +1,40 @@
+[
+    {
+      "category": "Mobile",
+      "headline": "Samsung Galaxy S24 Series Announced with Enhanced AI Features",
+      "details": "Samsung has officially unveiled the Galaxy S24 series, featuring advanced AI integration, improved camera capabilities, and longer battery life. The devices are powered by the latest Snapdragon 8 Gen 3 processor.",
+      "source": "TechRadar",
+      "date": "2024-11-28",
+      "url": "https://www.techradar.com",
+      "image":  "https://i.ibb.co/m6zvMZV/Samsung-Galaxy-S22.jpg"
+    },
+    {
+      "category": "Laptop",
+      "headline": "Dell XPS 15 2024 Launched with OLED Display",
+      "details": "Dell's latest XPS 15 model introduces a stunning OLED display and 13th-gen Intel processors, targeting creators with improved performance and color accuracy.",
+      "source": "The Verge",
+      "date": "2024-11-27",
+      "url": "https://www.theverge.com",
+      "image": "https://i.ibb.co/3fw31Rx/Dell-XPS-15.jpg"
+    },
+    {
+        "category": "Apple",
+        "headline": "Apple AirPods Ultra Expected to Launch with Immersive Audio Features",
+        "details": "Apple is set to release the AirPods Ultra, rumored to include spatial audio enhancements, extended battery life, and a redesigned form factor.",
+        "source": "MacRumors",
+        "date": "2024-11-26",
+        "url": "https://www.macrumors.com",
+        "image": "https://i.ibb.co/YBrQrkj/Apple-Air-Pods-Pro-2nd-Gen.jpg"
+      },
+    {
+      "category": "Headphones",
+      "headline": "Nothing Ear (3) Launches with Enhanced Transparency Mode",
+      "details": "The third-generation Nothing Ear headphones feature improved ANC, a sleek transparent design, and superior bass performance, priced at $129.",
+      "source": "TechRadar",
+      "date": "2024-11-26",
+      "url": "https://www.techradar.com",
+      "image": "https://i.ibb.co/7kDN5yy/Sony-WH-1000-XM5.jpg"
+    }
+    ]
+  
+  

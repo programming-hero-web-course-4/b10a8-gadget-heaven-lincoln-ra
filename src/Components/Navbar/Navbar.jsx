@@ -14,7 +14,7 @@ const Navbar = () => {
       <li><NavLink to="/">Home</NavLink></li>
       <li><NavLink to="/dashboard">Dashboard</NavLink></li>
       <li><NavLink to="/state">State</NavLink></li>
-      <li><NavLink to="/blog">Blog</NavLink></li>
+      <li><NavLink to="/news">News</NavLink></li>
     </ul>
     <div className="flex gap-5">
       <NavLink to="/dashboard/cart"><button className="bg-white p-2 text-black rounded-full border-2"><IoCartOutline /></button ></NavLink>
