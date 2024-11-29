@@ -11,3 +11,9 @@
 .category .active{
     color: rgb(155, 2, 155);
 }
+
+.dashboard .active {
+    background-color: white;
+    color: rgb(155, 2, 155);
+    border-radius: 12px ;
+}

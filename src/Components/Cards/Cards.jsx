@@ -6,7 +6,7 @@ import { useParams } from "react-router-dom";
 const Cards = () => {
 
     const obj = useParams();
-    console.log(obj)
+    // console.log(obj)
 
     const value = useContext(dataContext)
     const {data} = value;
@@ -23,7 +23,7 @@ const Cards = () => {
                     <Card key={product.product_id} product={product} />
                 ))
             ) : (
-                <p>No products found for this category.</p>
+                <p className="font-bold w-[800px] text-4xl">No products found for this category.</p>
             )}
         </div>
     );

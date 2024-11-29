@@ -2,18 +2,26 @@ import { useLocation } from "react-router-dom";
 import { IoCartOutline } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa";
+import { useContext } from "react";
+import { dataContext } from "../../Context/Context";
 
 const Details = () => {
+
+    const {addToCart} = useContext(dataContext);
+    const {addToWishlist} = useContext(dataContext);
+
     const location = useLocation();
     const {product} = location.state ;
     const {product_title, product_image,availability, price, rating,specification,description} = product;
 
 
+
+
     return (
         <div className="bg-purple-600 p-10 rounded-xl relative pb-24" >
-            <h3 className="font-bold text-4xl text-center">Product Details</h3>
-            <p className="text-center mx-48 mt-3">Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
-            <div className="bg-white flex my-5 rounded-xl p-10 left-24 w-10/12 absolute ">
+            <h3 className="font-bold text-4xl text-center text-white">Product Details</h3>
+            <p className="text-center mx-48 mt-3 text-white">Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
+            <div className="bg-white flex my-5 rounded-xl p-10 left-24 w-10/12 absolute  gap-10">
                 <img className="rounded-xl h-[350px]" src={product_image} alt="" />
                 <div >
                     <h3 className="font-bold text-2xl">{product_title}</h3>
@@ -33,8 +41,8 @@ const Details = () => {
                     </ol>
                     <h4 className="flex items-center gap-1">Rating: {rating} <FaRegStar /> </h4>
                     <div className="flex items-center gap-5 ">
-                    <button className="flex items-center gap-1 bg-purple-600 rounded-full px-3 py-1 text-white font-semibold">Add to Cart <IoCartOutline /></button>
-                    <button className="border-2 border-[#adadad] p-1 rounded-full"><FaRegHeart /></button>
+                    <button className="flex items-center gap-1 bg-purple-600 rounded-full px-3 py-1 text-white font-semibold" onClick={() =>addToCart(product)}>Add to Cart <IoCartOutline /></button>
+                    <button onClick={() => addToWishlist(product)} className="border-2 border-[#adadad] p-1 rounded-full"><FaRegHeart /></button>
                     </div>
                 </div>
             </div>

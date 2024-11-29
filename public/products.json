@@ -5,7 +5,7 @@
         "product_title": "Samsung Galaxy S22",
         "product_image": "https://i.ibb.co/m6zvMZV/Samsung-Galaxy-S22.jpg",
         "category": "Phone",
-        "price": 999.99,
+        "price": 99.99,
         "description": "High-end phone with stunning AMOLED display and great performance.",
         "specification": {
           "processor": "Snapdragon 8 Gen 1",
@@ -22,7 +22,7 @@
         "product_title": "Google Pixel 7",
         "product_image": "https://i.ibb.co/Kw2PYJZ/Google-Pixel-7.jpg",
         "category": "Phone",
-        "price": 699.99,
+        "price": 69.99,
         "description": "Clean Android experience with great camera and Google Tensor chip.",
         "specification": {
           "processor": "Google Tensor G2",
@@ -39,7 +39,7 @@
         "product_title": "OnePlus 10 Pro",
         "product_image": "https://i.ibb.co/M8vjyKr/One-Plus-10-Pro.jpg",
         "category": "Phone",
-        "price": 799.99,
+        "price": 79.99,
         "description": "Flagship phone with high refresh rate and fast charging support.",
         "specification": {
           "processor": "Snapdragon 8 Gen 1",
@@ -56,7 +56,7 @@
         "product_title": "Xiaomi Mi 13",
         "product_image": "https://i.ibb.co/ncfp5vS/Xiaomi-Mi-13.jpg",
         "category": "Phone",
-        "price": 649.99,
+        "price": 64.99,
         "description": "Affordable flagship with great performance and excellent camera.",
         "specification": {
           "processor": "Snapdragon 8+ Gen 1",
@@ -73,7 +73,7 @@
         "product_title": "iPhone 14 Pro",
         "product_image":"https://i.ibb.co/0ZZ91xC/i-Phone-14-Pro.jpg",
         "category": "iPhone",
-        "price": 999.99,
+        "price": 99.99,
         "description": "Latest iPhone with always-on display and Dynamic Island.",
         "specification": {
           "processor": "Apple A16 Bionic",
@@ -90,7 +90,7 @@
         "product_title": "iPhone 13 Pro Max",
         "product_image": "https://i.ibb.co/VvL4nb2/i-Phone-13-Pro-Max.jpg",
         "category": "iPhone",
-        "price": 1099.99,
+        "price": 109.99,
         "description": "Flagship Apple phone with a triple-camera system and Super Retina display.",
         "specification": {
           "processor": "Apple A15 Bionic",
@@ -107,7 +107,7 @@
         "product_title": "iPhone SE (2022)",
         "product_image": "https://i.ibb.co/ckQwwgj/i-Phone-SE-2022.jpg",
         "category": "iPhone",
-        "price": 429.99,
+        "price": 42.99,
         "description": "Compact iPhone with powerful A15 Bionic chip.",
         "specification": {
           "processor": "Apple A15 Bionic",
@@ -124,7 +124,7 @@
         "product_title": "iPhone 12 Mini",
         "product_image": "https://i.ibb.co/s1B1pv3/i-Phone-12-Mini.jpg",
         "category": "iPhone",
-        "price": 599.99,
+        "price": 59.99,
         "description": "Small and lightweight iPhone with A14 Bionic chip.",
         "specification": {
           "processor": "Apple A14 Bionic",
@@ -141,7 +141,7 @@
         "product_title": "Samsung Galaxy A53",
         "product_image": "https://i.ibb.co/khdX2BL/Samsung-Galaxy-A53.png",
         "category": "Phone",
-        "price": 449.99,
+        "price": 44.99,
         "description": "Affordable mid-range phone with AMOLED display and excellent battery life.",
         "specification": {
           "processor": "Exynos 1280",
@@ -158,7 +158,7 @@
         "product_title": "iPhone XR",
         "product_image": "https://i.ibb.co/pJy7Z8f/i-Phone-XR.jpg",
         "category": "iPhone",
-        "price": 499.99,
+        "price": 49.99,
         "description": "A classic iPhone with Liquid Retina display and solid performance.",
         "specification": {
           "processor": "Apple A12 Bionic",
@@ -176,7 +176,7 @@
         "product_title": "Dell XPS 15",
         "product_image": "https://i.ibb.co/3fw31Rx/Dell-XPS-15.jpg",
         "category": "Laptop",
-        "price": 1899.99,
+        "price": 189.99,
         "description": "High-performance laptop with stunning 4K display.",
         "specification": {
           "processor": "Intel Core i7 12th Gen",
@@ -193,7 +193,7 @@
         "product_title": "HP Spectre x360",
         "product_image": "https://i.ibb.co/5YPMmXK/HP-Spectre-x360.jpg",
         "category": "Laptop",
-        "price": 1599.99,
+        "price": 159.99,
         "description": "Convertible laptop with excellent build quality.",
         "specification": {
           "processor": "Intel Core i7 11th Gen",
@@ -210,7 +210,7 @@
         "product_title": "ASUS ROG Zephyrus G14",
         "product_image": "https://i.ibb.co/qgnTWPV/ASUS-ROG-Zephyrus-G14.jpg",
         "category": "Laptop",
-        "price": 1399.99,
+        "price": 139.99,
         "description": "Compact gaming laptop with excellent performance.",
         "specification": {
           "processor": "AMD Ryzen 9",
@@ -227,7 +227,7 @@
         "product_title": "Lenovo ThinkPad X1 Carbon",
         "product_image": "https://i.ibb.co/M1ndpvc/Lenovo-Think-Pad-X1-Carbon.jpg",
         "category": "Laptop",
-        "price": 1799.99,
+        "price": 179.99,
         "description": "Business laptop with lightweight design and excellent keyboard.",
         "specification": {
           "processor": "Intel Core i7 12th Gen",
@@ -244,7 +244,7 @@
         "product_title": "Acer Nitro 5",
         "product_image": "https://i.ibb.co/5MQby0R/Acer-Nitro-5.jpg",
         "category": "Laptop",
-        "price": 999.99,
+        "price": 99.99,
         "description": "Affordable gaming laptop with dedicated graphics card.",
         "specification": {
           "processor": "Intel Core i5 11th Gen",
@@ -262,7 +262,7 @@
         "product_title": "MacBook Air M1",
         "product_image": "https://i.ibb.co/qr4T0rQ/Mac-Book-Air-M1.jpg",
         "category": "MacBook",
-        "price": 999.99,
+        "price": 99.99,
         "description": "Thin and lightweight laptop with the powerful M1 chip.",
         "specification": {
           "processor": "Apple M1",
@@ -279,7 +279,7 @@
         "product_title": "MacBook Pro 13 M2",
         "product_image": "https://i.ibb.co/njpnMB8/Mac-Book-Pro-13-M2.jpg",
         "category": "MacBook",
-        "price": 1299.99,
+        "price": 129.99,
         "description": "Compact and powerful laptop with the latest M2 chip.",
         "specification": {
           "processor": "Apple M2",
@@ -296,7 +296,7 @@
         "product_title": "MacBook Pro 14 M1 Pro",
         "product_image": "https://i.ibb.co/c2jqmXZ/Mac-Book-Pro-14-M1-Pro.jpg",
         "category": "MacBook",
-        "price": 1999.99,
+        "price": 199.99,
         "description": "Professional-grade laptop with enhanced performance and display.",
         "specification": {
           "processor": "Apple M1 Pro",
@@ -313,7 +313,7 @@
         "product_title": "MacBook Pro 16 M1 Max",
         "product_image": "https://i.ibb.co/HqrBCzd/Mac-Book-Pro-16-M1-Max.jpg",
         "category": "MacBook",
-        "price": 2999.99,
+        "price": 299.99,
         "description": "High-end laptop with exceptional power for professional workflows.",
         "specification": {
           "processor": "Apple M1 Max",
@@ -330,7 +330,7 @@
         "product_title": "MacBook Air M2",
         "product_image": "https://i.ibb.co/nnw6nLC/Mac-Book-Air-M2.jpg",
         "category": "MacBook",
-        "price": 1199.99,
+        "price": 119.99,
         "description": "Ultra-light laptop with an improved M2 chip and sleek design.",
         "specification": {
           "processor": "Apple M2",
@@ -348,7 +348,7 @@
         "product_title": "Apple AirPods Pro (2nd Gen)",
         "product_image": "https://i.ibb.co/YBrQrkj/Apple-Air-Pods-Pro-2nd-Gen.jpg",
         "category": "Accessory",
-        "price": 249.99,
+        "price": 24.99,
         "description": "Noise-cancelling earbuds with adaptive transparency and spatial audio.",
         "specification": {
           "compatibility": "iOS and Android",
@@ -363,7 +363,7 @@
         "product_title": "Samsung Galaxy Buds 2 Pro",
         "product_image": "https://i.ibb.co/ysMFwR3/Samsung-Galaxy-Buds-2-Pro.jpg",
         "category": "Accessory",
-        "price": 199.99,
+        "price": 19.99,
         "description": "Wireless earbuds with intelligent active noise cancellation.",
         "specification": {
           "compatibility": "iOS and Android",
@@ -408,7 +408,7 @@
         "product_title": "Sony WH-1000XM5",
         "product_image": "https://i.ibb.co/7kDN5yy/Sony-WH-1000-XM5.jpg",
         "category": "Accessory",
-        "price": 399.99,
+        "price": 39.99,
         "description": "Premium over-ear headphones with industry-leading noise cancellation.",
         "specification": {
           "compatibility": "iOS, Android, Windows",

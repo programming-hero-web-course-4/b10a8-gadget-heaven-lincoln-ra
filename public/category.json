@@ -1,8 +1,9 @@
 [
     { "id": 1, "category": "All Products", "catName": "allProducts" },
     { "id": 2, "category": "Laptops", "catName": "Laptop" },
-    { "id": 3, "category": "Phones", "catName": "Phone" },
-    { "id": 6, "category": "MacBook", "catName": "MacBook" },
-    { "id": 7, "category": "iPhone", "catName": "iPhone" }
+    { "id": 4, "category": "Phones", "catName": "Phone" },
+    { "id": 5, "category": "MacBook", "catName": "MacBook" },
+    { "id": 6, "category": "iPhone", "catName": "iPhone" },
+    { "id": 7, "category": "Smart Watches", "catName": "watch" }
 ]
 
