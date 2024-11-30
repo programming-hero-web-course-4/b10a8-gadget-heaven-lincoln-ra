@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { dataContext } from "../../Context/Context";
-import { FaSortNumericUpAlt } from "react-icons/fa";
+import { FaSortNumericDownAlt } from "react-icons/fa";
 import { RxCrossCircled } from "react-icons/rx";
 import { useNavigate } from "react-router-dom";
 
@@ -50,14 +50,14 @@ const Cart = () => {
                 <h3 className="font-bold text-lg">Cart</h3>
                 <div className="flex gap-8 items-center">
                 <h3 className="font-bold text-lg">Total Price: {totalPrice.toFixed(2)}</h3>
-                <button className="flex items-center gap-2 border-2 border-purple-600 rounded-full px-3 py-2" onClick={sortByPrice}>Sort by Price <FaSortNumericUpAlt /></button>
+                <button className="flex items-center gap-2 border-2 border-purple-600 rounded-full px-3 py-2" onClick={sortByPrice}>Sort by Price <FaSortNumericDownAlt /></button>
                 <button className={`flex items-center gap-2 border-2 border-purple-600 rounded-full px-3 py-2 ${sortedCartData.length !== 0 ? 'bg-purple-600 text-white' : ''}`}onClick={handlePurchase}
                 disabled={sortedCartData.length ===0 }>Purchase</button>
                 </div>
                 </div>
                 <dialog id="my_modal_1" className="modal">
                 <div className="modal-box flex flex-col items-center">
-                    <img src="/src/assets/Group.png" alt="" />
+                    <img src="https://i.ibb.co.com/4NgBmNg/Group.png" alt="" />
                     <h3 className="font-bold text-lg">Success</h3>
                     <p className="py-4">Product Purchased Successfully</p>
                     <p className="font-bold">Total Price: {finalTotalPrice.toFixed(2)}</p>

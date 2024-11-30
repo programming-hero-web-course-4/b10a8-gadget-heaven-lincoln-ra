@@ -19,7 +19,7 @@ const Details = () => {
 
 
     return (
-        <div className="bg-purple-600 p-10 rounded-xl relative pb-24" >
+        <div className="bg-purple-600 p-10 rounded-xl relative pb-24 mx-20" >
             <h3 className="font-bold text-4xl text-center text-white">Product Details</h3>
             <p className="text-center mx-48 mt-3 text-white">Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
             <div className="bg-white flex my-5 rounded-xl p-10 left-24 w-10/12 absolute  gap-10">
